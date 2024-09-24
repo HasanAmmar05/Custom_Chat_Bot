@@ -47,21 +47,21 @@ const KLPropBot = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     if (!input.trim()) return;
-
+  
     const userMessage = { role: "user", content: input };
     setMessages((prev) => [...prev, userMessage]);
     setInput("");
     setIsLoading(true);
-
+  
     try {
       const response = await fetch("/api/chat", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ message: input }),
       });
-
+  
       if (!response.ok) throw new Error("Failed to get response");
-
+  
       const data = await response.json();
       setMessages((prev) => [
         ...prev,
@@ -81,6 +81,7 @@ const KLPropBot = () => {
     }
   };
 
+  
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   };
