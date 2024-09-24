@@ -28,7 +28,7 @@
     "build": "react-scripts build",
     "dev": "react-scripts start",
     "server": "nodemon server.js",
-    "vercel-build": "npm run build"
+    "vercel-build": "CI=false npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -47,5 +47,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
   }
 }

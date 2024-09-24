@@ -81,7 +81,7 @@ const KLPropBot = () => {
     }
   };
 
-  
+
   const toggleDarkMode = () => {
     setIsDarkMode(!isDarkMode);
   };
@@ -220,6 +220,7 @@ const KLPropBot = () => {
                       <img
                         {...props}
                         className="mt-2 rounded-md max-w-full h-auto"
+                        alt=" "
                       />
                     ),
                     code: ({ node, inline, className, children, ...props }) => {
