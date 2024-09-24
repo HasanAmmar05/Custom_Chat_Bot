@@ -5,7 +5,6 @@
       { "src": "api/chat.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/api/chat", "dest": "/api/chat.js" },
-      { "src": "/(.*)", "dest": "/index.html" }
+      { "src": "/api/chat", "dest": "/api/chat.js" }
     ]
   }
