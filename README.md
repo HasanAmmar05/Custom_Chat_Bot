@@ -2,7 +2,7 @@
 
 KL PropBot is an advanced AI-powered chatbot specializing in Kuala Lumpur real estate. It provides comprehensive, accurate, and insightful information about properties, prices, neighborhoods, and market trends in KL.
 
-![KL PropBot Logo]("\public\logo.svg")
+
 
 ## Features 🌟
 
