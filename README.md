@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# KL PropBot 🏙️🤖
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+KL PropBot is an advanced AI-powered chatbot specializing in Kuala Lumpur real estate. It provides comprehensive, accurate, and insightful information about properties, prices, neighborhoods, and market trends in KL.
 
-## Available Scripts
+![KL PropBot Logo]("C:\Users\Victus by HP\Downloads\React_Courses_and_Projects\Custom_Chat_Bot\public\logo.svg")
 
-In the project directory, you can run:
+## Features 🌟
 
-### `npm start`
+- **AI-Powered Conversations**: Engage in natural language conversations about KL real estate.
+- **Comprehensive Property Information**: Get detailed insights on condos, houses, and land in popular KL areas.
+- **Real-Time Market Trends**: Stay updated with the latest real estate market trends and investment outlooks.
+- **Interactive UI**: User-friendly interface with dark mode support and smooth animations.
+- **Responsive Design**: Seamless experience across desktop and mobile devices.
+- **Data Visualization**: View property price trends and market statistics through interactive charts.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack 💻
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React.js with Tailwind CSS for styling
+- **Backend**: Node.js with Express.js
+- **AI Model**: Groq AI (llama3-8b-8192 model)
+- **Animations**: Framer Motion
+- **Charts**: Recharts
+- **Markdown Rendering**: React-Markdown
 
-### `npm test`
+## Getting Started 🚀
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `npm run build`
+- Node.js (v14 or later)
+- npm or yarn
+- Groq AI API key
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Installation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/kl-propbot.git
+   cd kl-propbot
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-### `npm run eject`
+3. Set up environment variables:
+   Create a `.env` file in the root directory and add your Groq AI API key:
+   ```
+   GROQ_API_KEY=your_api_key_here
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+5. Open `http://localhost:3000` in your browser to view the app.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Usage 📱
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Start a Conversation**: Type your question about KL real estate in the chat input.
+2. **Explore Properties**: Use the navigation buttons to browse different property types.
+3. **Toggle Dark Mode**: Click the sun/moon icon to switch between light and dark themes.
+4. **View Market Trends**: Interact with the charts to see property price trends.
 
-## Learn More
+## Contributing 🤝
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+We welcome contributions to KL PropBot! Please follow these steps:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Fork the repository
+2. Create a new branch: `git checkout -b feature/your-feature-name`
+3. Make your changes and commit them: `git commit -m 'Add some feature'`
+4. Push to the branch: `git push origin feature/your-feature-name`
+5. Submit a pull request
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
