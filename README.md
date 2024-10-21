@@ -34,7 +34,7 @@ KL PropBot is an advanced AI-powered chatbot specializing in Kuala Lumpur real e
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/kl-propbot.git
+   git clone https://github.com/HasanAmmar05/Custom_Chat_Bot.git
    cd kl-propbot
    ```
 
